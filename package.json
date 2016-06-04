@@ -1,0 +1,19 @@
+{
+  "name": "dc-council-chat",
+  "version": "1.0.0",
+  "description": "A simple client to chat about live streams of DC Council chats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefordc/dc-council-chat.git"
+  },
+  "author": "mkalish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefordc/dc-council-chat/issues"
+  },
+  "homepage": "https://github.com/codefordc/dc-council-chat#readme"
+}
