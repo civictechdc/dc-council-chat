@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/codefordc/dc-council-chat/issues"
   },
-  "homepage": "https://github.com/codefordc/dc-council-chat#readme"
+  "homepage": "https://github.com/codefordc/dc-council-chat#readme",
+  "dependencies": {
+    "webpack": "^1.13.1"
+  }
 }
