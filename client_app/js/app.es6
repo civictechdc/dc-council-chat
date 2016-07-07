@@ -1,13 +1,19 @@
 import React from 'react';
 import { render } from 'react-dom';
+import ChatWindow from './components/ChatWindow';
 
-class HelloWorld extends React.Component {
-  render() {
-    return <p>Hello, world!</p>;
-  }
-}
+var chats = [
+    {
+        text: 'this thing',
+        id: 1
+    },
+    {
+        text: 'that thing',
+        id: 2
+    }
+];
 
 render(
-  <HelloWorld />,
+  <ChatWindow chats={chats} />,
   document.getElementById('app')
 );
